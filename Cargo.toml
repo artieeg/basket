@@ -3,4 +3,5 @@
 members = [
     "apps/basket_server",
     "packages/basket_defs",
+    "packages/basket_cli",
 ]
