@@ -8,3 +8,6 @@ edition = "2021"
 [dependencies]
 basket_defs = { path = "../../packages/basket_defs" }
 basket_cli = { path = "../../packages/basket_cli" }
+
+rkyv = "0.7.40"
+bytecheck = "0.7.0"
