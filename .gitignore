@@ -1,0 +1,41 @@
+# Ignore build artifacts
+target/
+
+# Ignore Rust dependencies
+**/Cargo.lock
+**/target/
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore binary files and executables
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+
+# Ignore generated files
+**/*.rs.bk
+**/*.rmeta
+**/*.rpass
+**/*.rlib
+**/*.o
+**/*.d
+**/*.gcda
+**/*.gcno
+**/*.gcov
+
+# Ignore test output
+**/test_output/
+
+# Ignore any local configuration files
+config.local.toml
+
+# Ignore any sensitive files containing credentials, secrets, or private keys
+**/*.pem
+**/*.key
+**/*.cert
+**/*.credential
+**/*.env
+**/*.env.*
