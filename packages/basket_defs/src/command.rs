@@ -25,6 +25,6 @@ pub enum Action {
 // To use the safe API, you have to derive CheckBytes for the archived type
 #[archive_attr(derive(CheckBytes, Debug))]
 pub struct Command {
-    action: Action,
-    timestamp: u128,
+    pub action: Action,
+    pub timestamp: u128,
 }

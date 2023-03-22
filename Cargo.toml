@@ -2,6 +2,7 @@
 
 members = [
     "apps/basket_server",
+    "apps/basket_client",
     "packages/basket_defs",
     "packages/basket_cli",
 ]
