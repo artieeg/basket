@@ -1,4 +1,5 @@
-use crate::{command::Command, buffer::Buffer};
+use crate::buffer::Buffer;
+use basket_defs::command::Command;
 use anyhow::Result;
 use rkyv::Deserialize;
 

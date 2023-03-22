@@ -1,5 +1,4 @@
 mod buffer;
-mod command;
 mod parse_command;
 
 use crate::buffer::{Buffer, BufferCapacity};

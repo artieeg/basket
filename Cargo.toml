@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "apps/basket_server",
+    "packages/basket_defs",
+]
