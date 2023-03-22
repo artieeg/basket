@@ -20,9 +20,7 @@ pub enum Action {
 }
 
 #[derive(Archive, Copy, Clone, Deserialize, Serialize, Debug, PartialEq)]
-// This will generate a PartialEq impl between our unarchived and archived types
 #[archive(compare(PartialEq))]
-// To use the safe API, you have to derive CheckBytes for the archived type
 #[archive_attr(derive(CheckBytes, Debug))]
 pub struct Command {
     pub action: Action,

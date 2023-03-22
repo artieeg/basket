@@ -1,11 +1,5 @@
-use basket_defs::command::{Key, Value, Command, Action};
+use basket_defs::{command::{Key, Value, Command, Action}, command_result::CommandResult};
 use hashbrown::HashMap;
-
-pub enum CommandResult {
-    Value(Value),
-    NotFound,
-    Ok,
-}
 
 pub struct Store {
     map: HashMap<Key, Value>,
